@@ -174,7 +174,7 @@ By default, the template doesn’t have any Azure Account credentials preloaded.
 ### Clean Credentials on the Data Source
 
 In some cases, old credentials are cached by previous logins using Power BI Desktop and the dashboard might show errors or blank fields.
-
+Under File Menu/Options and Settings/Data source Settings
 - Click on Data sources in **Current file/Global permissions**.
 - Click on **Clear Permissions**.
 - Click on **Clear All Permissions**.
