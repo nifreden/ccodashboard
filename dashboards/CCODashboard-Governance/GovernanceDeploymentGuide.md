@@ -90,6 +90,8 @@ Then go to Power BI Options and under Global category in the Security section, s
 
 ![cc](/install/images/customconnectorsecurity.PNG)
 
+Restart Power BI Desktop
+
 # Setting up the CCO Azure Governance Dashboard Governance
 
 ## Template download
