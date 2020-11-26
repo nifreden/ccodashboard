@@ -165,11 +165,6 @@ Before start loading data you need to select which type of environment you're us
 
 ![selector](/install/images/selector.png)
 
-## Credentials
-
-By default, the template doesn’t have any Azure Account credentials preloaded. Hence, the first step to start showing subscriptions data is to sign-in with the right user credentials.
-
-**IMPORTANT NOTE**: Power BI Desktop caches the credentials after the first logon. It is important to clear the credentials from Power BI desktop if you plan to switch between Azure GLobal and any other region like US Government or China. The same concept applies if you plan to switch between tenants. Otherwise, the staged credentials will be used again for the different Azure environments and the authentication or data load process will fail.
 
 ### Clean Credentials on the Data Source
 
@@ -178,6 +173,12 @@ In some cases, old credentials are cached by previous logins using Power BI Desk
 - Click on Data sources in **Current file/Global permissions**.
 - Click on **Clear Permissions**.
 - Click on **Clear All Permissions**.
+
+## Credentials
+
+By default, the template doesn’t have any Azure Account credentials preloaded. Hence, the first step to start showing subscriptions data is to sign-in with the right user credentials.
+
+**IMPORTANT NOTE**: Power BI Desktop caches the credentials after the first logon. It is important to clear the credentials from Power BI desktop if you plan to switch between Azure Global and any other region like US Government or China. The same concept applies if you plan to switch between tenants. Otherwise, the staged credentials will be used again for the different Azure environments and the authentication or data load process will fail.
 
 ![credentials1](/install/images/Credentials1.png) ![credentials2](/install/images/Credentials2.png)
 
